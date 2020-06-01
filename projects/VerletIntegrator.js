@@ -70,11 +70,6 @@ class Point
 
 };
 
-function getRndInteger(min, max) 
-{
-  return Math.floor(Math.random() * (max - min) ) + min;
-}
-
 var p = new Point(0, 0, 10);
 var mapLimitX = 600;
 var mapLimitY = 600;
@@ -88,6 +83,7 @@ let button;
 function setup() 
 {
   // put setup code here
+  mapLimitX = document.body.clientWidth;
   createCanvas(mapLimitX, mapLimitY);
 
   createElement('br');
@@ -95,11 +91,11 @@ function setup()
   button = createButton('Add Ball');
   button.mousePressed(AddBall);
 
-  button = createButton('Clear All');
-  button.mousePressed(ClearAll);
-
   button = createButton('Restart');
   button.mousePressed(RestartGame);
+
+  button = createButton('Clear All');
+  button.mousePressed(ClearAll);
 
   frameRate(60);
 
@@ -155,6 +151,7 @@ function draw()
 
   background(255);
 
+  
   //Move Logic
   var i;
   strokeWeight(1);
@@ -165,6 +162,13 @@ function draw()
     // put drawing code here
     ellipse(balls[i].x, balls[i].y, balls[i].radius, balls[i].radius);
   }
+
+  if(mapLimitX != document.body.clientWidth)
+  {
+    resizeCanvas(document.body.clientWidth, mapLimitY);
+    mapLimitX = document.body.clientWidth;
+  }
+
 
   strokeWeight(4);
   rect(0, 0, mapLimitX, mapLimitY);
