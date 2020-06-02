@@ -80,6 +80,8 @@ var balls = [];
 var ballNumber = 0;
 let button;
 
+var selectedBall = null;
+
 function RestartGame()
 {
   var i;
@@ -166,7 +168,6 @@ function draw()
 {
 
   background(30, 30, 30);
-
   
   //Move Logic
   fill(0, 255, 0, 150);
@@ -177,24 +178,31 @@ function draw()
     balls[i].move();
     // put drawing code here
     
-    ellipse(balls[i].x, balls[i].y, balls[i].radius, balls[i].radius);
+    circle(balls[i].x, balls[i].y, balls[i].radius * 2);
   }
 
   //Check collisions
-  // for (var i = 0; i < balls.length; i++)
-  // {
-  //   for (var j = 0; j < balls.length; j++)
-  //   {
+  for (var i = 0; i < balls.length; i++)
+  {
+    for (var j = 0; j < balls.length; j++)
+    {
 
-  //     if(balls[i] != balls[j])
-  //     {
-  //         if (pow((balls[i].x - balls[j].x), 2) + pow((balls[j].y - balls[i].y), 2) <= pow((balls[j].radius + balls[i].radius), 2))
-  //         {
-  //           OnCollision(balls[i], balls[j]);
-  //         }
-  //     }
-  //   }
-  // }
+      if(balls[i] != balls[j])
+      {
+          if (pow((balls[i].x - balls[j].x), 2) + pow((balls[j].y - balls[i].y), 2) <= pow((balls[j].radius + balls[i].radius), 2))
+          {
+            OnCollision(balls[i], balls[j]);
+          }
+      }
+    }
+  }
+
+  //Dragg logic
+  if(selectedBall != null)
+  {
+    line(mouseX, mouseY, selectedBall.x, selectedBall.y);
+    console.log(selectedBall.radius);
+  }
 
   if(mapLimitX != document.body.clientWidth)
   {
@@ -207,4 +215,28 @@ function draw()
   // strokeWeight(4);
   // stroke(255, 255, 255);
   // rect(0, 0, mapLimitX, mapLimitY);
+}
+
+function mousePressed()
+{
+  for (var i = 0; i < balls.length; i++)
+  {
+    if(IsPointInsideCircle(mouseX, mouseY, balls[i]))
+    {
+      selectedBall = balls[i];
+    }
+
+  }
+}
+
+function mouseReleased() 
+{
+
+  x = mouseX - selectedBall.x;
+  y = mouseY - selectedBall.y;
+
+	selectedBall.vx += x / 2;
+	selectedBall.vy += y / 2;
+
+  selectedBall = null;
 }
