@@ -80,6 +80,62 @@ var balls = [];
 var ballNumber = 0;
 let button;
 
+function RestartGame()
+{
+  var i;
+  for (i = 0; i < ballNumber; i++) 
+  {
+    balls[i].x = getRndInteger(0, mapLimitX);
+    balls[i].y = getRndInteger(0, mapLimitY);
+
+    balls[i].vx = getRndInteger(0, 200);
+    balls[i].vy = getRndInteger(0, 200);
+  }
+  console.log(balls.length);
+}
+
+function AddBall()
+{
+
+  ballNumber = balls.push();
+
+  balls[ballNumber] = new Point(getRndInteger(0, mapLimitX), getRndInteger(0, mapLimitY), getRndInteger(10, 30));
+  balls[ballNumber].vx = getRndInteger(0, 100);
+  balls[ballNumber].vy = getRndInteger(0, 100);
+
+  ballNumber++;
+}
+
+function ClearAll()
+{
+
+ balls = [];
+ ballNumber = 0;
+
+}
+
+function OnCollision(p, check_Point)
+{
+	p.vx *= -1 * p.bounce;
+	p.vy *= -1 * p.bounce;
+
+	//Ball collision correction
+	var fDistance = sqrt((check_Point.x - p.x)*(check_Point.x - p.x) + (check_Point.y - p.y)*(check_Point.y - p.y));
+	var fOverlap = 0.5 * (fDistance - check_Point.radius - p.radius) - 1;
+
+	//Move objects outside collision + dt to fix overlap?
+	check_Point.x -= fOverlap * (check_Point.x - p.x) / fDistance;
+	check_Point.y -= fOverlap * (check_Point.y - p.y) / fDistance;
+	p.x += fOverlap * (check_Point.x - p.x) / fDistance;
+	p.y += fOverlap * (check_Point.y - p.y) / fDistance;
+
+	//Invert velocity to simulate elastic collision
+	check_Point.vx = p.vx;
+	check_Point.vx *= -1 * check_Point.bounce;
+	check_Point.vy = p.vy;
+	check_Point.vy *= -1 * check_Point.bounce;
+}
+
 function setup() 
 {
   // put setup code here
@@ -98,70 +154,41 @@ function setup()
   button.mousePressed(ClearAll);
 
   frameRate(60);
-
-  var i;
-  for (i = 0; i < ballNumber; i++) 
-  {
-    balls[i] = new Point(getRndInteger(0, mapLimitX), getRndInteger(0, mapLimitY), 10);
-    balls[i].vx = getRndInteger(0, 200);
-    balls[i].vy = getRndInteger(0, 200);
-  }
-
-}
-
-function RestartGame()
-{
-  var i;
-  for (i = 0; i < ballNumber; i++) 
-  {
-    balls[i].x = getRndInteger(0, mapLimitX);
-    balls[i].y = getRndInteger(0, mapLimitY);
-
-    balls[i].radius = 10;
-
-    balls[i].vx = getRndInteger(0, 200);
-    balls[i].vy = getRndInteger(0, 200);
-  }
-  console.log(balls.length);
-}
-
-function AddBall()
-{
-
-    ballNumber = balls.push();
-
-    balls[ballNumber] = new Point(getRndInteger(0, mapLimitX), getRndInteger(0, mapLimitY), 10);
-    balls[ballNumber].vx = getRndInteger(0, 200);
-    balls[ballNumber].vy = getRndInteger(0, 200);
-
-    ballNumber++;
-    console.log(ballNumber);
-}
-
-function ClearAll()
-{
-
- balls = [];
- ballNumber = 0;
-
 }
 
 function draw() 
 {
 
-  background(255);
+  background(30, 30, 30);
 
   
   //Move Logic
-  var i;
+  fill(0, 255, 0, 150);
   strokeWeight(1);
-  stroke(4);
-  for (i = 0; i < ballNumber; i++) 
+  stroke(255, 255, 255);
+  for (var i = 0; i < ballNumber; i++) 
   {
     balls[i].move();
     // put drawing code here
+    
     ellipse(balls[i].x, balls[i].y, balls[i].radius, balls[i].radius);
   }
+
+  //Check collisions
+  // for (var i = 0; i < balls.length; i++)
+  // {
+  //   for (var j = 0; j < balls.length; j++)
+  //   {
+
+  //     if(balls[i] != balls[j])
+  //     {
+  //         if (pow((balls[i].x - balls[j].x), 2) + pow((balls[j].y - balls[i].y), 2) <= pow((balls[j].radius + balls[i].radius), 2))
+  //         {
+  //           OnCollision(balls[i], balls[j]);
+  //         }
+  //     }
+  //   }
+  // }
 
   if(mapLimitX != document.body.clientWidth)
   {
@@ -170,8 +197,8 @@ function draw()
   }
 
 
-  strokeWeight(4);
-  rect(0, 0, mapLimitX, mapLimitY);
-  noFill();
-  
+  // noFill();
+  // strokeWeight(4);
+  // stroke(255, 255, 255);
+  // rect(0, 0, mapLimitX, mapLimitY);
 }
