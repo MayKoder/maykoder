@@ -168,6 +168,12 @@ function draw()
 {
 
   background(30, 30, 30);
+
+  noStroke();
+  textSize(16);
+  textAlign(CENTER, CENTER);
+  fill(250, 250, 250, 60);
+  text("Collision correction between balls is cheap, needs a rework", mapLimitX / 2, mapLimitY / 2);
   
   //Move Logic
   fill(0, 255, 0, 150);
