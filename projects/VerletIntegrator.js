@@ -140,18 +140,24 @@ function setup()
 {
   // put setup code here
   mapLimitX = document.body.clientWidth;
-  createCanvas(mapLimitX, mapLimitY);
+
+  var canvas = createCanvas(mapLimitX, mapLimitY);
+  // Move the canvas so it’s inside our <div id="sketch-holder">.
+  canvas.parent('sketch-holder');
 
   createElement('br');
 
   button = createButton('Add Ball');
   button.mousePressed(AddBall);
+  button.parent('sketch-holder');
 
   button = createButton('Restart');
   button.mousePressed(RestartGame);
+  button.parent('sketch-holder');
 
   button = createButton('Clear All');
   button.mousePressed(ClearAll);
+  button.parent('sketch-holder');
 
   frameRate(60);
 }
