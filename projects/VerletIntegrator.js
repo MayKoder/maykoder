@@ -70,21 +70,21 @@ class Point
 
 };
 
-var p = new Point(0, 0, 10);
+let p = new Point(0, 0, 10);
 var mapLimitX = 600;
 var mapLimitY = 600;
 var gravity = 9.81;
 var friction = 0.1;
 
-var balls = [];
-var ballNumber = 0;
+let balls = [];
+let ballNumber = 0;
 let button;
 
-var selectedBall = null;
+let selectedBall = null;
 
 function RestartGame()
 {
-  var i;
+  let i;
   for (i = 0; i < ballNumber; i++) 
   {
     balls[i].x = getRndInteger(0, mapLimitX);
