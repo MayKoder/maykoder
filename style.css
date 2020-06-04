@@ -3,18 +3,29 @@
   padding: 0;
   border: 0;
   outline: 0;
-  /* font-size: 100%; */
+
   vertical-align: baseline;
   box-sizing: border-box;
-  /* background: #141414; */
+
 }
 
-body {
+.hide-overflow{
   overflow: hidden;
-  z-index:0;
 }
+
+.projects-showcase{
+  background-color: red;
+  height: 100%;
+}
+.project-container{
+  background-color: blue;
+  height: 200px;
+  width: 30%;
+}
+
 html{
   background: url(assets/background//bg_white.jpg);
+  background-repeat: repeat;
 }
 
 .center {
@@ -26,7 +37,10 @@ html{
     z-index: -1;
   }
 
-
+  .nav-links > a.active 
+  {
+    background-color: #303030;
+  }
 
 .nav {
   height: 55px;
@@ -87,7 +101,7 @@ html{
     padding: 13px;
   }
   .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(45, 45, 45, 0.3);
   }
   .nav > .nav-btn > label > span {
     display: block;
@@ -118,5 +132,6 @@ html{
     overflow-y: auto;
   }
 }
+
 
   
