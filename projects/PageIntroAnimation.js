@@ -9,7 +9,6 @@ function preload() {
   inconsolata = loadFont('fonts/montserrat/MontserratAlternates-Black.otf');
 }
 
-
 function setup() 
 {
 
@@ -17,12 +16,14 @@ function setup()
     mapLimitY = windowHeight-1;
 
     var cnv = createCanvas(mapLimitX, mapLimitY, WEBGL);
+    cnv.parent('intro-canvas');
     cnv.style('display', 'block');
     cnv.position(0, 0);
 
     textFont(inconsolata);
     textSize(width / 15);
     textAlign(CENTER, CENTER);
+
 
   }
 
