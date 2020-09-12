@@ -5,16 +5,19 @@ var gridNodes = [];
 var quadSize = 30;
 
 
+
 function setup() 
 {
   // put setup code here
   mapLimitX = document.body.clientWidth;
 
-  var canvas = createCanvas(mapLimitX, mapLimitY);
-  // Move the canvas so it’s inside our <div id="sketch-holder">.
-  canvas.parent('node-grid');
+  if(!canvas)
+  {
+    canvas = createCanvas(mapLimitX, mapLimitY);
+  }
 
-  createElement('br');
+  //SUPER IMPORTANT
+  oldJSName = 'NodeGrid.js';
 
   for(var y = 0; y < mapLimitY / quadSize; ++y)
   {
@@ -24,6 +27,8 @@ function setup()
           gridNodes[(y * len) + x] = 0;
       }
   }
+
+
 
 }
 
@@ -65,9 +70,6 @@ function draw()
         resizeCanvas(document.body.clientWidth, mapLimitY);
         mapLimitX = document.body.clientWidth;
     }
-
-
-
 
   // noFill();
   // strokeWeight(4);

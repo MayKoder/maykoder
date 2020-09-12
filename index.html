@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="hide-overflow">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>MayKoder Projects Portfolio</title>
+  <title>MayKoder Portfolio</title>
 
 
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
 
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -15,6 +15,8 @@
 </head>
 
 <body class="hide-overflow">
+
+  <!-- <div class="backGround"></div> -->
 
   <div class="nav" style="position: absolute;">
     <input type="checkbox" id="nav-check">
@@ -31,11 +33,12 @@
       </label>
     </div>
     
-    <div class="nav-links">
+    <div class="nav-links" style="z-index: 10;">
       <a class="active" href="index.html">Home</a>
       <a href="projects.html">Projects</a>
-      <a href="">NORFEX</a>
-      <a href="">About</a>
+      <a href="norfex.html">NORFEX</a>
+      <a href="vault.html">3D Vault</a>
+      <a href="about.html">About</a>
     </div>
   </div>
   
@@ -70,9 +73,8 @@
   <script type="text/javascript" src="lib/p5.sound.js"></script>
 
   <script type="text/javascript" src="lib/MaykMath.js"></script>
-  <!-- <script type="text/javascript" src="projects/VerletIntegrator.js"></script> -->
-  <!-- <script type="text/javascript" src="projects/NodeGrid.js"></script> -->
-  <script type="text/javascript" src="projects/PageIntroAnimation.js"></script>
+  <script type="text/javascript" src="projects/HomePageText.js"></script>
+
   
 
 </body>

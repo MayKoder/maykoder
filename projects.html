@@ -4,10 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>MayKoder Projects Portfolio</title>
+  <title>Projects Portfolio</title>
 
-
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
 
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -16,7 +15,8 @@
 
 <body>
 
-  <div class="nav">
+  <!-- NavBar -->
+  <div class="nav"">
     <input type="checkbox" id="nav-check">
     <div class="nav-header">
       <div class="nav-title">
@@ -31,51 +31,74 @@
       </label>
     </div>
     
-    <div class="nav-links">
+    <div class="nav-links" style="z-index: 10;">
       <a href="index.html">Home</a>
       <a class="active" href="projects.html">Projects</a>
-      <a href="">NORFEX</a>
-      <a href="">About</a>
+      <a href="norfex.html">NORFEX</a>
+      <a href="vault.html">3D Vault</a>
+      <a href="about.html">About</a>
     </div>
-  
-  <div class="content"></div>
-
-  <!-- <h1 class="center">MayKoder</h1> -->
-
-  <div id="sketch-holder">
-    <!-- Our sketch will go here! -->
-</div>
-
-  <div id="node-grid">
-    <!-- Our sketch will go here! -->
   </div>
+  
+
 
   <!-- Project showcase -->
   <div class="showcase-section">
 
-    <h1 class="center" style="color: black;">Projects</h1>
+    <h1 class="center" style="color: white;">Projects</h1>
 
     <div class="band">
+
       <div class="item-1">
-        <a href="https://design.tutsplus.com/articles/international-artist-feature-malaysia--cms-26852" class="card">
+        <a class="card" href="www.google.es" target="_blank">
+          <div class="iframe-container">
+            <iframe class="thumbFrame" src="https://www.youtube.com/embed/pljsC0pNg7A?modestbranding=1&showinfo=0&fs=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <article>
+            <h1>Mythology Parade</h1>
+            <p>Game made with SDL and C++ blablabla</p>
+            <span>SDL2 / C++</span>
+            <!-- <span href="https://www.w3schools.com/" class="card-git">GitHub</span> -->
+
+          </article>
+        </a>
+      </div>
+
+      <div class="item-2">
+        <a class="card">
+          <div class="thumb" style="background-image: url(assets/project-media/SPACE_COLORS_Trailer.gif);"></div>
+          <article>
+            <h1>Space Colors</h1>
+            <span>Unity / C#</span>
+          </article>
+        </a>
+      </div>
+
+      <div class="item-3">
+        <a onclick="ChangeProject('Verlet')" class="card">
           <div class="thumb" style="background-image: url(https://imagenes.20minutos.es/files/image_656_370/uploads/imagenes/2019/05/21/957237.jpg);"></div>
           <article>
-            <h1>Put the projects here</h1>
+            <h1>Verlet Integrator</h1>
             <span>C++ & SDL2</span>
           </article>
         </a>
       </div>
+
+      
+      <div class="item-4">
+        <a onclick="ChangeProject('Verlet')" class="card">
+          <div class="thumb" style="background-image: url(https://imagenes.20minutos.es/files/image_656_370/uploads/imagenes/2019/05/21/957237.jpg);"></div>
+          <article>
+            <h1>Verlet Integrator</h1>
+            <span>C++ & SDL2</span>
+          </article>
+        </a>
+      </div>
+
+
     </div>
   </div>
-  
 
-
-  <script type="text/javascript" src="lib/p5.js"></script>
-  <script type="text/javascript" src="lib/p5.sound.js"></script>
-
-  <script type="text/javascript" src="lib/MaykMath.js"></script>
-  <script type="text/javascript" src="projects/VerletIntegrator.js"></script>
-  <!-- <script type="text/javascript" src="projects/NodeGrid.js"></script> -->
 
 </body>
 
