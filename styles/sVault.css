@@ -66,19 +66,71 @@ main{
     border-radius: 20px;
   }
   
-  @media only screen and (max-width: 1000px){
+  @media only screen and (max-width: 1600px){
     .vCard{
-      grid-column-end: span 6;
+      grid-template-columns: 10px repeat(6, 1vw) 10px;
+      grid-gap: 10px;
+    }
+
+    .vCards{
+      grid-column: 2 / span 40;
+      grid-template-columns: repeat(40, 1vw);
+      gap: 20px;
+      justify-content: center;
+    }
+    .vCard{
+      grid-column-end: span 13;
+    }
+  }
+
+  @media only screen and (max-width: 1400px){
+    .vCard{
+      grid-template-columns: 10px repeat(6, 1fr) 10px;
+      grid-gap: 10px;
+    }
+
+    .vCards{
+      grid-column: 2 / span 16;
+      grid-template-columns: repeat(30, 1vw);
+      gap: 20px;
+      justify-content: center;
+    }
+    .vCard{
+      grid-column-end: span 10;
+    }
+  }
+
+  @media only screen and (max-width: 900px)
+  {
+    main{
+      grid-template-columns: 10px repeat(16, 1fr) 10px;
+      grid-gap: 10px;
+    }
+    .vCards{
+      grid-column: 2 / span 16;
+      grid-template-columns: repeat(20, 1vw);
+      gap: 20px;
+      justify-content: center;
+    }
+    .vCard{
+      grid-column-end: span 10;
     }
   }
   
   @media only screen and (max-width: 700px)
   {
     main{
-      grid-gap: 20px;
+      grid-template-columns: 10px repeat(6, 1fr) 10px;
+      grid-gap: 10px;
+    }
+    .vCards{
+      grid-column: 2 / span 6;
+      grid-template-columns: repeat(6, 55px);
+      gap: 20px;
+      justify-content: center;
     }
     .vCard{
-      grid-column-end: span 8;
+      grid-column-end: span 6;
     }
   }
   
@@ -90,7 +142,7 @@ main{
     }
     .vCards{
       grid-column: 2 / span 6;
-      grid-template-columns: repeat(6, 1fr);
+      grid-template-columns: repeat(6, 50px);
       gap: 20px;
       justify-content: center;
     }
