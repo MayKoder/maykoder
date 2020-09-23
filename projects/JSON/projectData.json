@@ -21,39 +21,12 @@
         },
         {
             "displayType": "image",
-            "projectLink": "https://github.com/MayKoder/Physics-2_Jake_Inferno_Pinball",
+            "projectLink": "https://github.com/MayKoder/Physics-2_Racing_Game",
 
-            "display": "assets/project-media/JAKE_INFERNO_PINBALL.png",
-            "name": "Jake's Inferno Pinball",
-            "description": "Complete game recreation from scratch of the popular 2D game 'Jake's Inferno Pinball'. <br> <br> Made in one month.",
-            "codeType": "SDL2 / C++"
-        },
-        {
-            "displayType": "image",
-            "projectLink": "https://github.com/reddot-studio/Projecte_1_RedDot",
-
-            "display": "assets/project-media/AOF.png",
-            "name": "Art of Fighting",
-            "description": "Art of fighting remake",
-            "codeType": "SDL2 / C++"
-        },
-        {
-            "displayType": "image",
-            "projectLink": "https://gamejolt.com/games/addforce/317045",
-
-            "display": "assets/project-media/ADD_FORCE.png",
-            "name": "Add Force",
-            "description": "Game made in two months with Unity and C#",
-            "codeType": "Unity / C#"
-        },
-        {
-            "displayType": "video",
-            "projectLink": "https://github.com/DESVJ/Schrodinger_Quest",
-
-            "display": "https://www.youtube.com/embed/G2wOtbUd-Ko",
-            "name": "Schrödinger Quest",
-            "description": "A platform game with a unique mechanic made from scratch in three months",
-            "codeType": "SDL2 / C++"
+            "display": "assets/project-media/RACING_GAME.png",
+            "name": "RC: NP CUP",
+            "description": "Racing game made from scratch in one month with OpenGL.",
+            "codeType": "OpenGL / C++"
         },
         {
             "displayType": "image",
@@ -66,21 +39,57 @@
         },
         {
             "displayType": "image",
+            "projectLink": "https://github.com/MayKoder/Physics-2_Jake_Inferno_Pinball",
+
+            "display": "assets/project-media/JAKE_INFERNO_PINBALL.png",
+            "name": "Jake's Inferno Pinball",
+            "description": "Complete game recreation from scratch of the popular 2D game 'Jake's Inferno Pinball'. <br> <br> Made in one month.",
+            "codeType": "SDL2 / C++"
+        },
+        {
+            "displayType": "image",
+            "projectLink": "https://www.youtube.com/watch?v=gJRVCffDKo0&feature=emb_logo",
+
+            "display": "assets/project-media/COVID_GJ.jpg",
+            "name": "COVID-19 Frenzy",
+            "description": "Game made in 48h with Unity for the GAMEBCN Covid-19 Game Jam",
+            "codeType": "Unity / C#"
+        },
+        {
+            "displayType": "image",
+            "projectLink": "https://gamejolt.com/games/addforce/317045",
+
+            "display": "assets/project-media/ADD_FORCE.png",
+            "name": "Add Force",
+            "description": "Game made in two months with Unity and C#",
+            "codeType": "Unity / C#"
+        },
+        {
+            "displayType": "image",
+            "projectLink": "https://github.com/reddot-studio/Projecte_1_RedDot",
+
+            "display": "assets/project-media/AOF.png",
+            "name": "Art of Fighting",
+            "description": "Art of fighting remake",
+            "codeType": "SDL2 / C++"
+        },
+        {
+            "displayType": "video",
+            "projectLink": "https://github.com/DESVJ/Schrodinger_Quest",
+
+            "display": "https://www.youtube.com/embed/G2wOtbUd-Ko",
+            "name": "Schrödinger Quest",
+            "description": "A platform game with a unique mechanic made from scratch in three months",
+            "codeType": "SDL2 / C++"
+        },
+        {
+            "displayType": "image",
             "projectLink": "https://github.com/Physics-2-CITM/Verlet_Integrator",
 
             "display": "assets/project-media/INTEGRADOR.png",
             "name": "Verlet Integrator",
             "description": "Physics based particle movement Integrator with custom API and test scene",
             "codeType": "SDL2 / C++"
-        },
-        {
-            "displayType": "image",
-            "projectLink": "https://github.com/MayKoder/Physics-2_Racing_Game",
-
-            "display": "assets/project-media/RACING_GAME.png",
-            "name": "RC: NP CUP",
-            "description": "Racing game made from scratch in one month with OpenGL.",
-            "codeType": "OpenGL / C++"
         },
         {
             "displayType": "image",
@@ -99,15 +108,6 @@
             "name": "Unity 3D: Game Ready Map",
             "description": "A complete map with 5 zones as prototypes",
             "codeType": "Unity 3D"
-        },
-        {
-            "displayType": "image",
-            "projectLink": "https://www.youtube.com/watch?v=gJRVCffDKo0&feature=emb_logo",
-
-            "display": "assets/project-media/COVID_GJ.jpg",
-            "name": "COVID-19 Frenzy",
-            "description": "Game made in 48h with Unity for the GAMEBCN Covid-19 Game Jam",
-            "codeType": "Unity / C#"
         }
 
     ]
