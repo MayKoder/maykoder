@@ -206,9 +206,10 @@ function draw()
 function mousePressed() 
 {
   if(firstClick == false){
-    var unityInstance = UnityLoader.instantiate("unityContainer", "Portfolio Quest/Build/BUILD.json", {onProgress: UnityProgress});
-    firstClick = true;
-    console.log("Loading game");
+    //IMPORTANT: UNCOMMENT THIS
+    // var unityInstance = UnityLoader.instantiate("unityContainer", "Portfolio Quest/Build/BUILD.json", {onProgress: UnityProgress});
+    // firstClick = true;
+    // console.log("Loading game");
   }
 }
 
