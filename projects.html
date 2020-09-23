@@ -4,19 +4,24 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Projects Portfolio</title>
+  <title>MayKoder | Projects</title>
 
   <link rel="stylesheet" type="text/css" href="styles/style.css">
 
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
+
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+  <script type="text/javascript" src="projects/JSON/JsonDataLoader.js"> </script>
+  
+
 </head>
 
 <body>
 
   <!-- NavBar -->
-  <div class="nav"">
+  <div class="nav">
     <input type="checkbox" id="nav-check">
     <div class="nav-header">
       <div class="nav-title">
@@ -39,17 +44,18 @@
       <a href="about.html">About</a>
     </div>
   </div>
-  
 
 
   <!-- Project showcase -->
   <div class="showcase-section">
 
+    <br>
+    <p class="center" style="color: grey;">Web is under huge rework, Home, NORFEX, Vault and About tabs will be locked temporarily</p>
     <h1 class="center" style="color: white;">Projects</h1>
 
-    <div class="band">
+    <div class="band" id="JsonProjectData">
 
-      <div class="item-1">
+      <!-- <div class="item-1">
         <a class="card" href="www.google.es" target="_blank">
           <div class="iframe-container">
             <iframe class="thumbFrame" src="https://www.youtube.com/embed/pljsC0pNg7A?modestbranding=1&showinfo=0&fs=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -58,13 +64,13 @@
             <h1>Mythology Parade</h1>
             <p>Game made with SDL and C++ blablabla</p>
             <span>SDL2 / C++</span>
-            <!-- <span href="https://www.w3schools.com/" class="card-git">GitHub</span> -->
+
 
           </article>
         </a>
-      </div>
+      </div> -->
 
-      <div class="item-2">
+      <!-- <div class="item-2">
         <a class="card">
           <div class="thumb" style="background-image: url(assets/project-media/SPACE_COLORS_Trailer.gif);"></div>
           <article>
@@ -72,9 +78,9 @@
             <span>Unity / C#</span>
           </article>
         </a>
-      </div>
+      </div> -->
 
-      <div class="item-3">
+      <!-- <div class="item-3">
         <a onclick="ChangeProject('Verlet')" class="card">
           <div class="thumb" style="background-image: url(https://imagenes.20minutos.es/files/image_656_370/uploads/imagenes/2019/05/21/957237.jpg);"></div>
           <article>
@@ -82,10 +88,10 @@
             <span>C++ & SDL2</span>
           </article>
         </a>
-      </div>
+      </div> -->
 
       
-      <div class="item-4">
+      <!-- <div class="item-4">
         <a onclick="ChangeProject('Verlet')" class="card">
           <div class="thumb" style="background-image: url(https://imagenes.20minutos.es/files/image_656_370/uploads/imagenes/2019/05/21/957237.jpg);"></div>
           <article>
@@ -93,7 +99,7 @@
             <span>C++ & SDL2</span>
           </article>
         </a>
-      </div>
+      </div> -->
 
 
     </div>

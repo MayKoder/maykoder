@@ -1,0 +1,114 @@
+{
+    "projects": 
+    [
+        {
+            "displayType": "video",
+            "projectLink": "https://github.com/Misioneros-Studio/Mythology-Parade",
+
+            "display": "https://www.youtube.com/embed/pljsC0pNg7A?modestbranding=1&showinfo=0&fs=0",
+            "name": "Mythology Parade",
+            "description": "Game made with SDL and C++ blablabla",
+            "codeType": "SDL2 / C++"
+        },
+        {
+            "displayType": "image",
+            "projectLink": "www.google.es",
+
+            "display": "assets/project-media/SPACE_COLORS_Trailer.gif",
+            "name": "Space Colors",
+            "description": "One month endless runner android game.",
+            "codeType": "Unity / C#"
+        },
+        {
+            "displayType": "image",
+            "projectLink": "https://github.com/MayKoder/Physics-2_Jake_Inferno_Pinball",
+
+            "display": "assets/project-media/JAKE_INFERNO_PINBALL.png",
+            "name": "Jake's Inferno Pinball",
+            "description": "Complete game recreation from scratch of the popular 2D game 'Jake's Inferno Pinball'. <br> <br> Made in one month.",
+            "codeType": "SDL2 / C++"
+        },
+        {
+            "displayType": "image",
+            "projectLink": "https://github.com/reddot-studio/Projecte_1_RedDot",
+
+            "display": "assets/project-media/AOF.png",
+            "name": "Art of Fighting",
+            "description": "Art of fighting remake",
+            "codeType": "SDL2 / C++"
+        },
+        {
+            "displayType": "image",
+            "projectLink": "https://gamejolt.com/games/addforce/317045",
+
+            "display": "assets/project-media/ADD_FORCE.png",
+            "name": "Add Force",
+            "description": "Game made in two months with Unity and C#",
+            "codeType": "Unity / C#"
+        },
+        {
+            "displayType": "video",
+            "projectLink": "https://github.com/DESVJ/Schrodinger_Quest",
+
+            "display": "https://www.youtube.com/embed/G2wOtbUd-Ko",
+            "name": "Schrödinger Quest",
+            "description": "A platform game with a unique mechanic made from scratch in three months",
+            "codeType": "SDL2 / C++"
+        },
+        {
+            "displayType": "image",
+            "projectLink": "https://maykoder.github.io/Space-Partitioning/",
+
+            "display": "assets/project-media/SPACE_PARTITIONING.png",
+            "name": "Space Partitioning Research",
+            "description": "Deep research about space partitioning, trees, KD-Trees and a custom QuadTree and AABBTree API",
+            "codeType": "SDL2 / C++"
+        },
+        {
+            "displayType": "image",
+            "projectLink": "https://github.com/Physics-2-CITM/Verlet_Integrator",
+
+            "display": "assets/project-media/INTEGRADOR.png",
+            "name": "Verlet Integrator",
+            "description": "Physics based particle movement Integrator with custom API and test scene",
+            "codeType": "SDL2 / C++"
+        },
+        {
+            "displayType": "image",
+            "projectLink": "https://github.com/MayKoder/Physics-2_Racing_Game",
+
+            "display": "assets/project-media/RACING_GAME.png",
+            "name": "RC: NP CUP",
+            "description": "Racing game made from scratch in one month with OpenGL.",
+            "codeType": "OpenGL / C++"
+        },
+        {
+            "displayType": "image",
+            "projectLink": "https://github.com/MayKoder/MATH_2_Matlab_Project",
+
+            "display": "assets/project-media/MATLAB.png",
+            "name": "MATLAB: 3D Math",
+            "description": "Paper and working example of the mathematical representation of computed rotation in geometry.",
+            "codeType": "MATLAB"
+        },
+        {
+            "displayType": "video",
+            "projectLink": "https://www.youtube.com/watch?v=kXEsJaAYJGs",
+
+            "display": "https://www.youtube.com/embed/kXEsJaAYJGs",
+            "name": "Unity 3D: Game Ready Map",
+            "description": "A complete map with 5 zones as prototypes",
+            "codeType": "Unity 3D"
+        },
+        {
+            "displayType": "image",
+            "projectLink": "https://www.youtube.com/watch?v=gJRVCffDKo0&feature=emb_logo",
+
+            "display": "assets/project-media/COVID_GJ.jpg",
+            "name": "COVID-19 Frenzy",
+            "description": "Game made in 48h with Unity for the GAMEBCN Covid-19 Game Jam",
+            "codeType": "Unity / C#"
+        }
+
+    ]
+} 
