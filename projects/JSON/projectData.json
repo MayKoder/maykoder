@@ -7,7 +7,7 @@
 
             "display": "https://www.youtube.com/embed/pljsC0pNg7A?modestbranding=1&showinfo=0&fs=0",
             "name": "Mythology Parade",
-            "description": "Game made with SDL and C++ blablabla",
+            "description": "Complete RTS game made in 3 months with custom art and code made from scratch. <br><br> Featuring search tree, multiple endings and a lot more.",
             "codeType": "SDL2 / C++"
         },
         {
@@ -16,7 +16,7 @@
 
             "display": "assets/project-media/SPACE_COLORS_Trailer.gif",
             "name": "Space Colors",
-            "description": "One month endless runner android game.",
+            "description": "Endless runner space themed game for Android and iOS made with Unity in one month.",
             "codeType": "Unity / C#"
         },
         {
@@ -25,7 +25,7 @@
 
             "display": "assets/project-media/RACING_GAME.png",
             "name": "RC: NP CUP",
-            "description": "Racing game made from scratch in one month with OpenGL.",
+            "description": "Racing game made from scratch in one month with OpenGL. Gravity will change during the race which was our unique mechanic.",
             "codeType": "OpenGL / C++"
         },
         {
@@ -61,7 +61,7 @@
 
             "display": "assets/project-media/ADD_FORCE.png",
             "name": "Add Force",
-            "description": "Game made in two months with Unity and C#",
+            "description": "Game made in two months with Unity and C# where you must use the power of vectors to complete a platform level. ",
             "codeType": "Unity / C#"
         },
         {
@@ -70,7 +70,7 @@
 
             "display": "assets/project-media/AOF.png",
             "name": "Art of Fighting",
-            "description": "Art of fighting remake",
+            "description": "Art of fighting remake from scratch with SDl. ",
             "codeType": "SDL2 / C++"
         },
         {
@@ -97,7 +97,7 @@
 
             "display": "assets/project-media/MATLAB.png",
             "name": "MATLAB: 3D Math",
-            "description": "Paper and working example of the mathematical representation of computed rotation in geometry.",
+            "description": "Paper and working example of the mathematical representation of computed rotation in 3D geometry.",
             "codeType": "MATLAB"
         },
         {
