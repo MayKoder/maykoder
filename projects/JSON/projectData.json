@@ -23,7 +23,7 @@
             "displayType": "image",
             "projectLink": "https://github.com/MayKoder/Physics-2_Racing_Game",
 
-            "display": "assets/project-media/RACING_GAME.png",
+            "display": "assets/project-media/RACING_GAME.gif",
             "name": "RC: NP CUP",
             "description": "Racing game made from scratch in one month with OpenGL. Gravity will change during the race which was our unique mechanic.",
             "codeType": "OpenGL / C++"
@@ -65,10 +65,10 @@
             "codeType": "Unity / C#"
         },
         {
-            "displayType": "image",
+            "displayType": "video",
             "projectLink": "https://github.com/reddot-studio/Projecte_1_RedDot",
 
-            "display": "assets/project-media/AOF.png",
+            "display": "https://www.youtube.com/embed/iHjXkBdnH-I",
             "name": "Art of Fighting",
             "description": "Art of fighting remake from scratch with SDl. ",
             "codeType": "SDL2 / C++"
