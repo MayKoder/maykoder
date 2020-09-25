@@ -32,7 +32,7 @@
             "displayType": "image",
             "projectLink": "https://maykoder.github.io/Space-Partitioning/",
 
-            "display": "assets/project-media/SPACE_PARTITIONING.png",
+            "display": "assets/project-media/SPACE_PARTITIONING.gif",
             "name": "Space Partitioning Research",
             "description": "Deep research about space partitioning, trees, KD-Trees and a custom QuadTree and AABBTree API",
             "codeType": "SDL2 / C++"
