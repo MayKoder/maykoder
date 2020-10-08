@@ -41,7 +41,7 @@
             "displayType": "image",
             "projectLink": "https://github.com/MayKoder/Physics-2_Jake_Inferno_Pinball",
 
-            "display": "assets/project-media/JAKE_INFERNO_PINBALL.png",
+            "display": "assets/project-media/JAKE_INFERNO_PINBALL.webp",
             "name": "Jake's Inferno Pinball",
             "description": "Complete game recreation from scratch of the popular 2D game 'Jake's Inferno Pinball'. <br> <br> Made in one month.",
             "codeType": "SDL2 / C++"
