@@ -33,5 +33,5 @@ function SetBack(unityInstance)
   unityInstance.container.style.border=unityInstance.container.style.margin=unityInstance.container.style.padding=0;
   unityInstance.container.style.top = "55px";
   unityInstance.container.style.height = "95%";
-  remove();
+  // remove();
 }

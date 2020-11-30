@@ -42,7 +42,7 @@ html *
 
 html{
   /* background: url(assets/background//bg_white.jpg); */
-  background-color: #303032;
+  /* background-color: #303032; */
   background-repeat: repeat;
 }
 
@@ -381,3 +381,24 @@ html{
 
 }
 
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.cool-button {
+  background-color: black;
+  color: white;
+  border: 2px solid rgb(255, 255, 255); /* Green */
+  cursor:pointer;
+  padding: calc(0.7vh + 0.2vw);
+  font-size: calc(0.5vh + 0.5vw);
+  margin-right: 10px;
+}
+.cool-button:hover
+{
+background-image:none;
+background-color: rgb(66, 116, 145);
+}

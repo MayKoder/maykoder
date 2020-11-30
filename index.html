@@ -10,15 +10,13 @@
   <link rel="stylesheet" type="text/css" href="styles/style.css">
 
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
   <link rel="stylesheet" href="Portfolio Quest/TemplateData/style.css">
   <script src="Portfolio Quest/TemplateData/UnityProgress.js"></script>
   <script src="Portfolio Quest/Build/UnityLoader.js"></script>
 
 </head>
 
-<body class="hide-overflow">
+<body class="hide-overflow" style="background-color: whitesmoke;">
 
   <!-- <div class="backGround"></div> -->
 
@@ -41,15 +39,23 @@
       <a class="active" href="index.html">Home</a>
       <a href="projects.html">Projects</a>
       <a href="norfex.html">NORFEX</a>
-      <a href="vault.html">3D Vault</a>
       <a href="about.html">About</a>
     </div>
   </div>
   
+  <img src="assets/background/IMG_1768.jpg" alt="background" style="
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;">
 
+  <div class="vertical-center" style="left: calc(2vh + 5vw);">
+    <h1 style="font-size: calc(3vh + 3vw); color: white;">Hi, I'm Mayk</h1>
+    <p style="font-size: calc(1vh + 1vw); color: white;">Game/Software Developer</p>
+    <div style="margin-bottom: calc(1vh + 1vw);"></div>
 
-  <div class="intro-canvas" id="intro-canvas">
-    <!-- Our sketch will go here! -->
+    <button class="cool-button" onclick="" id="interPortfolio">Interactive Portfolio</button>
+    <button class="cool-button" onclick="location.href = 'projects.html';" id="goProjects">View Projects</button>
   </div>
 
   <div>
@@ -60,19 +66,28 @@
     <li><a href="https://www.linkedin.com/in/miquel-suau-gonz%C3%A0lez-346b5617a/" class="icon-linkedin" target="_blank">LinkedIn</a></li>
     
     <li><a href="https://github.com/MayKoder" class="icon-github" target="_blank">GitHub</a></li>
-    <li><a href="" class="icon-youtube" target="_blank">YouTube</a></li>
+    <!-- <li><a href="" class="icon-youtube" target="_blank">YouTube</a></li>
     <li><a href="" class="icon-instagram" target="_blank">Instagram</a></li>
-  
+   -->
   </ul>
   
 
+  <script type="text/javascript">
+    document.getElementById("goProjects").onclick = function () {
+        location.href = "projects.html";
+    };
+</script>
 
-  <script type="text/javascript" src="lib/p5.js"></script>
-  <script type="text/javascript" src="lib/p5.sound.js"></script>
-
-  <!-- <script type="text/javascript" src="lib/MaykMath.js"></script> -->
-  <script type="text/javascript" src="projects/HomePageText.js"></script>
-
+<script type="text/javascript">
+  document.getElementById("interPortfolio").onclick = function () 
+  {
+    // var unityInstance = UnityLoader.instantiate("unityContainer", "Portfolio Quest/Build/BUILD.json", {onProgress: UnityProgress});
+    // firstClick = true;
+    // console.log("Loading game");
+  };
+</script>
+  <!-- <script type="text/javascript" src="lib/p5.js"></script>
+  <script type="text/javascript" src="lib/p5.sound.js"></script> -->
   
 
 </body>
