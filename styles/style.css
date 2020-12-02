@@ -1,5 +1,6 @@
 * {
-  margin: 0;
+  margin: 0 0 0 0;
+
   padding: 0;
   border: 0;
   outline: 0;
@@ -382,7 +383,11 @@ html{
 }
 
 .vertical-center {
-  margin: 0;
+  margin: 0 !important;
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+  padding: 0 !important;
+
   position: absolute;
   top: 50%;
   -ms-transform: translateY(-50%);
@@ -401,4 +406,7 @@ html{
 {
 background-image:none;
 background-color: rgb(66, 116, 145);
+}
+.spacer{
+  margin-bottom: calc(1vh + 1vw) !important;
 }
