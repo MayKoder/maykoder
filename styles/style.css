@@ -41,12 +41,6 @@ html *
   background-size: cover;
 } */
 
-html{
-  /* background: url(assets/background//bg_white.jpg); */
-  /* background-color: #303032; */
-  background-repeat: repeat;
-}
-
 .center {
     text-align: center;
     color: white;
@@ -64,7 +58,7 @@ html{
 .nav {
   height: 55px;
   width: 100%;
-  background-color: #4d4d4d;
+  background-color: #4d4d4db9;
   z-index: 2;
 }
 
@@ -398,9 +392,9 @@ html{
   color: white;
   border: 2px solid rgb(255, 255, 255); /* Green */
   cursor:pointer;
-  padding: calc(0.7vh + 0.2vw);
-  font-size: calc(0.5vh + 0.5vw);
-  margin-right: 10px;
+  padding: calc(0.8vh + 0.3vw);
+  font-size: calc(0.8vh + 0.6vw);
+  margin-right: 4px;
 }
 .cool-button:hover
 {
