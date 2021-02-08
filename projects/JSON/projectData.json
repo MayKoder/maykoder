@@ -12,6 +12,14 @@
         },
         {
             "displayType": "image",
+            "projectLink": "https://github.com/MayKoder/Diamond-Engine",
+            "display": "assets/project-media/diamond-engine.png",
+            "name": "Diamond Engine",
+            "description": "Diamond Engine is a lightweight 3D (and future 2D) game development engine. This engine was developed as part of a college assignment.",
+            "codeType": "C++ / OpenGL"
+        },
+        {
+            "displayType": "image",
             "projectLink": "https://gamejolt.com/games/SpaceColors/323550",
 
             "display": "assets/project-media/SPACE_COLORS_Trailer.gif",
