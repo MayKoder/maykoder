@@ -26,6 +26,14 @@
             "description": "Food delivery app UI display created with Flutter and Dart.",
             "codeType": "Flutter / Dart"
         },
+                {
+                    "displayType": "image",
+                    "projectLink": "https://github.com/MayKoder/Food_Delivery-Flutter_Dart-App/tree/main/battle_training",
+                    "display": "assets/project-media/FLUTTER_GAME.gif",
+                    "name": "Multiplayer Andoird/iOS game",
+                    "description": "Firebase-connected multiplayer android/iOS game created with Flutter and Dart. The code is organized to be extremely easy to expand and the Firebase implementation is designed to use the least bandwidth as possible.<br><br> New characters can be added via Firebase and no version update is needed.<br><br> Also players can log via Google Auth.",
+                    "codeType": "Flutter / Dart / Firestore"
+                },
         {
             "displayType": "image",
             "projectLink": "https://gamejolt.com/games/SpaceColors/323550",
