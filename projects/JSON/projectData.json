@@ -20,6 +20,14 @@
         },
         {
             "displayType": "image",
+            "projectLink": "https://github.com/MayKoder/Food_Delivery-Flutter_Dart-App",
+            "display": "assets/project-media/DELIVERY_APP_FLUTTER_2.png",
+            "name": "Food Delivery Flutter-Dart App",
+            "description": "Food delivery app UI display created with Flutter and Dart.",
+            "codeType": "Flutter / Dart"
+        },
+        {
+            "displayType": "image",
             "projectLink": "https://gamejolt.com/games/SpaceColors/323550",
 
             "display": "assets/project-media/SPACE_COLORS_Trailer.gif",
