@@ -408,3 +408,11 @@ background-color: rgb(145, 113, 66);
 .spacer{
   margin-bottom: calc(1vh + 1vw) !important;
 }
+
+.skewed {
+  width: 100%;
+  background: #2c3e50;
+  z-index: 0;
+  transform: skewY(2deg);
+  transform-origin: top right;
+}

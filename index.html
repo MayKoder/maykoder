@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="hide-overflow">
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -16,12 +16,13 @@
   <script src="Portfolio Quest/TemplateData/UnityProgress.js"></script>
   <script src="Portfolio Quest/Build/UnityLoader.js"></script>
 
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+  <script type="text/javascript" src="projects/JSON/JsonDataLoader.js"> </script>  
+
 </head>
 
-<body class="hide-overflow" style="background-color: whitesmoke;">
-
-  <!-- <div class="backGround"></div> -->
-
+<body style="background-color: whitesmoke;">
+  
   <div class="nav" style="position: absolute;">
     <input type="checkbox" id="nav-check">
     <div class="nav-header">
@@ -48,8 +49,8 @@
     </div>
   </div>
   
+<div style="height: 100vh">
   <img src="assets/background/IMG_20210220_182007.jpg" alt="background" style="
-  position: absolute;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -66,8 +67,25 @@
   </div>
 
   <div>
-    <div id="unityContainer" style=" line-height: 0; position: absolute; width: 100%; height: 100%; z-index: -50;"></div>
+    <div id="unityContainer" style=" line-height: 0; width: 100%; height: 100%; z-index: -50;"></div>
   </div>
+
+</div>
+
+<section style="background-color: rgb(32, 32, 32);">
+  <div class="skewed">
+    <p style="margin: 0 auto; text-align: center; color: white; font-size: 6vw; width: 100%;" >PROJECTS</p>
+  </div>
+
+    <br>
+    <div class="showcase-section" style="background-color: rgb(32, 32, 32);">
+      <p class="center" style="color: rgb(192, 192, 192); font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Click anywhere on the cards to visit the GitHub repositories</p>
+      <div class="band" id="JsonProjectData" style="padding-bottom: 7em;">
+      </div>
+
+    </div>
+
+</section>
 
   <ul class="social-networks spin-icon">
     <li><a href="https://www.linkedin.com/in/miquel-suau-gonz%C3%A0lez-346b5617a/" class="icon-linkedin" target="_blank">LinkedIn</a></li>
