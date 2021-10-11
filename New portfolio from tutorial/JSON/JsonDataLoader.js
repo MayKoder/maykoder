@@ -1,6 +1,7 @@
 
 var jsonData;
 var openStatus = false;
+var itemsToShow = 8;
 
 $(document).ready(function() 
 {
@@ -8,13 +9,25 @@ $(document).ready(function()
     var LoadItem = function(item, i)
     {
         var apItem = "";
-        console.log(i.toString());
-        apItem = '<article id="item-' + (i).toString() + '" style="display: ' + ((i < 6) ? "inline" : "none") + ';">' 
-        + '<a href='+ item.projectLink +' class="image" target="_blank"><img src="images/pic04.jpg" alt=""/></a>'
-        + '<h3 class="major">' + item.name + '</h3>'
-        + '<p>' + item.description + '</p>'
-        + '<a href="#" class="special">Learn more</a>'
-        + '</article>'
+
+
+        if(item.displayType == "video"){
+            apItem = '<article id="item-' + (i).toString() + '" style="display: ' + ((i < itemsToShow) ? "inline" : "none") + ';">' 
+            + '<a href='+ item.projectLink +' class="image" target="_blank"><img src="images/pic04.jpg" alt=""/></a>'
+            + '<h3 class="major">' + item.name + '</h3>'
+            + '<p>' + item.description + '</p>'
+            + '<a href="#" class="special">Learn more</a>'
+            + '</article>'
+        }else{            
+            apItem = '<article id="item-' + (i).toString() + '" style="display: ' + ((i < itemsToShow) ? "inline" : "none") + ';">' 
+            + '<a href='+ item.projectLink +' class="image" target="_blank"><img src=' + item.display + ' alt=""/></a>'
+            + '<h3 class="major">' + item.name + '</h3>'
+            + '<p>' + item.description + '</p>'
+            + '<a href="#" class="special">Learn more</a>'
+            + '</article>'
+        }
+
+
         $(apItem).appendTo("#JsonProjectData");
     };
 
@@ -71,7 +84,7 @@ $(document).ready(function()
         e.preventDefault();
         openStatus = !openStatus;
 
-        for (let index = 6; index < jsonData.projects.length; ++index) 
+        for (let index = itemsToShow; index < jsonData.projects.length; ++index) 
         {
             console.log($("#item-" + (index).toString()));
             $("#item-" + (index).toString()).attr("style", "display:" + ((openStatus == true) ? "inline" : "none") + ";");

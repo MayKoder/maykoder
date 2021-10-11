@@ -3013,7 +3013,7 @@ input, select, textarea {
 				width: calc(100% + 3.5em);
 			}
 
-				.features article .image img {
+				.features article .image img{
 					border-radius: 5px 5px 0 0;
 					width: 100%;
 				}
