@@ -1,0 +1,65 @@
+{
+    "skills": [
+        {
+            "name": "C++",
+            "icon": "svg/cpp.svg",
+            "years": 3
+        },
+        {
+            "name": "GitHub",
+            "icon": "svg/github-brands.svg",
+            "years": 3
+        },
+        {
+            "name": "Unity",
+            "icon": "svg/unity.svg",
+            "years": 3
+        },
+        {
+            "name": "Jira",
+            "icon": "svg/jira-brands.svg",
+            "years": 3
+        },
+        {
+            "name": "Unreal Engine",
+            "icon": "svg/unreal.svg",
+            "years": 3
+        },
+        {
+            "name": "Java",
+            "icon": "svg/java-brands.svg",
+            "years": 3
+        },
+        {
+            "name": "Flutter",
+            "icon": "svg/flutter.svg",
+            "years": 3
+        },
+        {
+            "name": "Python",
+            "icon": "svg/python-brands.svg",
+            "years": 3
+        },
+        {
+            "name": "C#",
+            "icon": "svg/csharp.svg",
+            "years": 3
+        },
+        {
+            "name": "Firebase",
+            "icon": "svg/firebase.svg",
+            "years": 3
+        },
+        {
+            "name": "OpenGL",
+            "icon": "svg/opengl.svg",
+            "years": 3
+        },
+        {
+            "name": "Visual Studio",
+            "icon": "svg/visual.svg",
+            "years": 3
+        }
+        
+    ]
+}

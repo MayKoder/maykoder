@@ -1,0 +1,96 @@
+{
+
+    "top": [
+        {
+            "name": "Diamond Engine",
+            "background": "/assets/project-media/diamond2.png"
+        },
+        {
+            "name": "Ashes of the Empire",
+            "background": "/assets/project-media/ashes.png"
+        },
+        {
+            "name": "Space Partitioning",
+            "background": "/assets/project-media/space_partitioning.png"
+        }
+    ],
+
+    "projects": [
+        {
+            "name": "Mythology Parade",
+            "background": "/assets/project-media/myh-parade3.png",
+            "renderText": false
+        },
+        {
+            "name": "ADD FORCE",
+            "background": "/assets/project-media/ADD_FORCE.png",
+            "renderText": true
+        },
+        {
+            "name": "SPACE COLORS",
+            "background": "/assets/project-media/space-colors.png",
+            "renderText": true
+        },
+        {
+            "name": "WASD",
+            "background": "/assets/project-media/wasd.png",
+            "renderText": true
+        },
+        {
+            "name": "Jake Inferno Tribute",
+            "background": "/assets/project-media/jake-inferno.png",
+            "renderText": true
+        },
+        {
+            "name": "Verlet Integrator",
+            "background": "/assets/project-media/integrator.png",
+            "renderText": true
+        },
+        {
+            "name": "Schrodinger Quest",
+            "background": "/assets/project-media/schrodinger2.png",
+            "renderText": true
+        },
+        {
+            "name": "Aimbot",
+            "background": "/assets/project-media/AIMBOT.png",
+            "renderText": true
+        },
+        {
+            "name": "AI Tank Game",
+            "background": "/assets/project-media/tanks.jpg",
+            "renderText": true
+        },
+        {
+            "name": "Arcball with Matlab",
+            "background": "/assets/project-media/MATLAB.png",
+            "renderText": true
+        },
+        {
+            "name": "AoF Remake",
+            "background": "/assets/project-media/AOF.png",
+            "renderText": true
+        },
+        {
+            "name": "Racing Game",
+            "background": "/assets/project-media/racing-game.png",
+            "renderText": true
+        },
+        {
+            "name": "AI Card Game",
+            "background": "/assets/project-media/cards.jpg",
+            "renderText": true
+        },
+        {
+            "name": "Food Delivery App",
+            "background": "/assets/project-media/delivery-flutter.png",
+            "renderText": true
+        },
+        {
+            "name": "Fight Covid Jam",
+            "background": "/assets/project-media/covid.png",
+            "renderText": false
+        }
+        
+    ]
+}
