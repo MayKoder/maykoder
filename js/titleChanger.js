@@ -37,14 +37,14 @@ fetch("assets/projects.json")
               <div class="container">
                 <div class="row">
                   <div class="col-xl-12">
-                    <h1 class="text-wrap" style="color: rgba(255, 255, 255, 0.575);">${json.top[value].name}</h1>
+                    <h1 class="display-6 text-wrap section-text" style="word-wrap: break-word; color: rgba(255, 255, 255, 0.575);">${json.top[value].name}</h1>
                   </div>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="hide-project-info"  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.8);">
+          <div class="hide-project-info position-absolute top-0 start-0"  style="width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.8);">
             <div class="d-flex align-items-center" style="height: 100%;">
               <div class="container aos-init aos-animate" data-aos="zoom-out" data-aos-delay="100">
                 <div class="row">
@@ -82,7 +82,7 @@ fetch("assets/projects.json")
             <div class="container">
                 <div class="row">
                 <div class="col-xl-12">
-                    <span class="text-wrap" style="color: rgba(255, 255, 255, 0.575); text-shadow: 2px 2px #000000;">${json.projects[value].name}</span>
+                <h1 class="display-6 text-wrap section-text" style="word-wrap: break-word; color: rgba(255, 255, 255, 0.575); text-shadow: 2px 2px #000000;">${json.projects[value].name}</h1>
                 </div>
                 </div>
             </div>
@@ -96,7 +96,7 @@ fetch("assets/projects.json")
             <div class="container">
                 <div class="row">
                 <div class="col">
-                    <span>Feature under development</span>
+                    <span style="word-wrap: break-word;">Feature under development</span>
                 </div>
                 </div>
             </div>
