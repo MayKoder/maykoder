@@ -1,13 +1,13 @@
-/* html, body {
-    height:100% !important;
-    max-width: 100%;
+html, body {
     overflow-x: hidden;
 
-} */
+}
 /* .navbar-nav > li{
     padding-left:30px;
     padding-right:30px;
 } */
+
+
 
 b{
     color: #ff5a00 !important;
