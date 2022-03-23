@@ -3,19 +3,19 @@
     "top": [
         {
             "name": "Diamond Engine",
-            "background": "../../assets/project-media/diamond2.png",
+            "background": "assets/project-media/diamond2.png",
             "link": "https://maykoder.github.io/Diamond-Engine/",
             "desc": "Lightweight 3D (C++/OpenGL) game engine with added support to interpret C# code on a component-based GameObject system. <br><br>Role: Solo developer"
         },
         {
             "name": "",
-            "background": "/assets/project-media/ashes2.jpg",
+            "background": "assets/project-media/ashes2.jpg",
             "link": "https://citm-vgdd-2018-2022.github.io/TM-Ashes_of_the_Empire/",
             "desc": "The game was developed using our own game engine built from the ground with C++, MonoRuntime and OpenGL: Diamond Engine. <br><br>Role: Code Lead of a 20 person team"
         },
         {
             "name": "Space Partitioning",
-            "background": "/assets/project-media/space_partitioning.png",
+            "background": "assets/project-media/space_partitioning.png",
             "link": "https://maykoder.github.io/Space-Partitioning/",
             "desc": "QuadTree/AABBTree study and implementations in C++ <br><br>Role: Solo developer"
         }
@@ -24,105 +24,105 @@
     "projects": [
         {
             "name": "Mythology Parade",
-            "background": "/assets/project-media/myh-parade3.png",
+            "background": "assets/project-media/myh-parade3.png",
             "renderText": false,
             "link": "https://misioneros-studio.github.io/Mythology-Parade/",
             "desc": "RTS game created from scratch by a team of 8 students in 3 months. Art and audio were re-styled from existing games.<br><br>Role: Code lead"
         },
         {
             "name": "ADD FORCE",
-            "background": "/assets/project-media/ADD_FORCE.png",
+            "background": "assets/project-media/ADD_FORCE.png",
             "renderText": true,
             "link": "https://gamejolt.com/games/addforce/317045",
             "desc": "One of my first developed games, made with Unity. It was a game jam game and the first project I've uploaded to GameJolt. Plays with Unity's physics system.<br><br>Role: Solo developer"
         },
         {
             "name": "SPACE COLORS",
-            "background": "/assets/project-media/space-colors.png",
+            "background": "assets/project-media/space-colors.png",
             "renderText": true,
             "link": "https://gamejolt.com/games/SpaceColors/323550",
             "desc": "Windows/Android game made with Unity in 3 months. Second project I've uploaded to GameJolt. The game was made with a friend artist and was also uploaded to the PlayStore.<br><br>Role: Gameplay code"
         },
         {
             "name": "WASD",
-            "background": "/assets/project-media/wasd.png",
+            "background": "assets/project-media/wasd.png",
             "renderText": true,
             "link": "https://github.com/MayKoder/GameJam01_CITM2019",
             "desc": "48h GameJam game from college. Completed the project in time with a team of 4 developers. The game is an infinite wave shooter with weapon drops and a static map.<br><br>Role: Gameplay programmer"
         },
         {
             "name": "Jake Inferno Tribute",
-            "background": "/assets/project-media/jake-inferno.png",
+            "background": "assets/project-media/jake-inferno.png",
             "renderText": true,
             "link": "https://github.com/MayKoder/Physics-2_Jake_Inferno_Pinball",
             "desc": ""
         },
         {
             "name": "Verlet Integrator",
-            "background": "/assets/project-media/integrator.png",
+            "background": "assets/project-media/integrator.png",
             "renderText": true,
             "link": "https://github.com/MayKoder/Verlet_Integrator",
             "desc": ""
         },
         {
             "name": "Schrodinger Quest",
-            "background": "/assets/project-media/schrodinger2.png",
+            "background": "assets/project-media/schrodinger2.png",
             "renderText": true,
             "link": "https://github.com/MayKoder/Schrodinger_Quest",
             "desc": "Schrödinger Quest (C++/SDL2) is a platformer game consisting of two levels where the player can become intangible being able to pass through most platforms like a ghost.<br><br>Role: Gameplay programmer"
         },
         {
             "name": "Aimbot",
-            "background": "/assets/project-media/AIMBOT.png",
+            "background": "assets/project-media/AIMBOT.png",
             "renderText": true,
             "link": "https://github.com/MayKoder/Aimbot",
             "desc": "Aimbot using Monte-Carlo's strategy and Verlet integration. Using C++/SDL.<br><br>Role: "
         },
         {
             "name": "AI Tank Game",
-            "background": "/assets/project-media/tanks.jpg",
+            "background": "assets/project-media/tanks.jpg",
             "renderText": true,
             "link": "https://github.com/MayKoder/CNN-ONNX_IA_Card_Game",
             "desc": ""
         },
         {
             "name": "Arcball with Matlab",
-            "background": "/assets/project-media/MATLAB.png",
+            "background": "assets/project-media/MATLAB.png",
             "renderText": true,
             "link": "https://github.com/MayKoder/MATH_2_Matlab_Project",
             "desc": ""
         },
         {
             "name": "AoF Remake",
-            "background": "/assets/project-media/AOF.png",
+            "background": "assets/project-media/AOF.png",
             "renderText": true,
             "link": "https://github.com/MayKoder/Art_Of_Fighting_Remake",
             "desc": ""
         },
         {
             "name": "Racing Game",
-            "background": "/assets/project-media/racing-game.png",
+            "background": "assets/project-media/racing-game.png",
             "renderText": true,
             "link": "https://github.com/MayKoder/Physics-2_Racing_Game",
             "desc": "Core for a game using Bullet, OpenGL and SDL. Racing game that uses gravitational changes through the map.<br><br>Role: "
         },
         {
             "name": "AI Card Game",
-            "background": "/assets/project-media/cards.jpg",
+            "background": "assets/project-media/cards.jpg",
             "renderText": true,
             "link": "https://github.com/MayKoder/CNN-ONNX_IA_Card_Game",
             "desc": ""
         },
         {
             "name": "Food Delivery App",
-            "background": "/assets/project-media/delivery-flutter.png",
+            "background": "assets/project-media/delivery-flutter.png",
             "renderText": true,
             "link": "https://github.com/MayKoder/Food_Delivery-Flutter_Dart-App",
             "desc": ""
         },
         {
             "name": "Fight Covid Jam",
-            "background": "/assets/project-media/covid.png",
+            "background": "assets/project-media/covid.png",
             "renderText": false,
             "link": "https://github.com/reddot-studio/FightCovidJam",
             "desc": ""
