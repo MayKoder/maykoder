@@ -229,6 +229,13 @@ li.list-group-item::before {
           margin-top: 1vh;
         }
       }
+
+      /* @media only screen and (min-width: 415px) and (max-width: 476px) {
+        .weird-contact-text{
+            background-color: red;
+        }
+      } */
+
     /* #home-gif:before {
         content: "";
         background: rgba(0, 0, 0, 0.6);

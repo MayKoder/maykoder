@@ -34,8 +34,8 @@ function fitTextInsideDynamicParents(){
   document.getElementsByName("fit").forEach((child) => 
   {
     var parent = child.parentElement.parentElement.parentElement.parentElement.parentElement;
-    console.log(child.getBoundingClientRect().height);
-    console.log(parent.getBoundingClientRect().height);
+    // console.log(child.getBoundingClientRect().height);
+    // console.log(parent.getBoundingClientRect().height);
     
     if(child.getBoundingClientRect().height > 0 && parent.getBoundingClientRect().height > 0){
       //parent.style.visibility = "visible";
@@ -279,5 +279,19 @@ window.addEventListener('load', () => {
 //     fitTextInsideDynamicParents();
 //   }
 // }
-window.addEventListener('resize', () => {fitTextInsideDynamicParents();});
+window.addEventListener('resize', () => {
+  fitTextInsideDynamicParents();
+  
+  if(window.innerWidth > 415 && window.innerWidth < 425)
+  {
+    
+    document.getElementById("githubContact").innerHTML = "MayKoder";
+    console.log(document.getElementById("githubContact"));
+
+  }else
+  {
+    document.getElementById("githubContact").innerHTML = "&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspMayKoder&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp";
+  }
+  
+});
 demo();
