@@ -3,7 +3,7 @@
     "top": [
         {
             "name": "Diamond Engine",
-            "background": "/assets/project-media/diamond2.png",
+            "background": "../../assets/project-media/diamond2.png",
             "link": "https://maykoder.github.io/Diamond-Engine/",
             "desc": "Lightweight 3D (C++/OpenGL) game engine with added support to interpret C# code on a component-based GameObject system. <br><br>Role: Solo developer"
         },
