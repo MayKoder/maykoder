@@ -9,23 +9,45 @@
     padding-right:30px;
 } */
 
+b{
+    color: #ff5a00 !important;
+}
+
 .borderless{
     border: none !important;
 }
+
+/* .rotated-margin{
+
+} */
 
 li.list-group-item::before {
     content: counter(section, circle) !important;
 }
 
+.date-text{
+    color: #ff5a00 !important;
+    /* color: grey !important; */
+}
+
 @font-face {
     font-family: sectionText;
     src: url(../fonts/montserrat/Montserrat-Black.otf);
-    }
+}
     
-    .section-text {
+@font-face {
+    font-family: subMainText;
+    src: url(../fonts/Fredoka.ttf);
+}
+
+    .main-text {
         font-family: sectionText;
     }
     
+.section-text{
+    font-family: subMainText;
+}
+
     .fit {
         font-size: 1.5vmin;
     }
@@ -78,11 +100,13 @@ li.list-group-item::before {
         margin: 0;
         font-weight: 700;
         color: #fff;
+        text-shadow: 4px 4px #00000063;
     }
     #home-gif h2 {
         margin: 0;
         font-weight: 500;
-        color: rgb(61, 245, 230);
+        color: #ff5a00;
+        text-shadow: 3px 3px #00000063;
     }
     #home-gif{
         z-index: -2 !important;
@@ -91,7 +115,7 @@ li.list-group-item::before {
         min-height: 100vh; 
         width: 100%; 
         background-color: rgba(199, 199, 199, 0.297); 
-        background-image: url(../assets/project-media/ADD_FORCE.png); 
+        background-image: url(../assets/project-media/SPACE_PARTITIONING.gif); 
         background-size: cover;   
         background-position: center;
         /* filter: blur(10px); */
@@ -101,7 +125,7 @@ li.list-group-item::before {
         color: white;
     }
     .hide-project-info{
-        display: none;
+        visibility: hidden;
     }
     
     @keyframes fadein {
@@ -142,13 +166,18 @@ li.list-group-item::before {
              animation: fadein 0.3s;
     }
     .project-display:hover > .hide-project-info{
-        display: block;
+        visibility: visible;
     }
     
     .contact-link{
         position: absolute; top: 0; left: 0; width: 100%; height: 100%;
     }
     
+    .hyperlink-no-style{
+        color: white;
+        text-decoration: none;
+    }
+
     .contact-hyperlink{
         color: white;
         text-decoration: none;

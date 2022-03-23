@@ -1,4 +1,38 @@
 {
+
+    "tableSkills":[
+        {
+            "name": "Languages",
+            "data": [
+                "C", "C++", "C#", "Java", "JavaScript", "Arduino", "Python", "Dart", "SQL", "GLSL", "HLSL"
+            ]
+        },
+        {
+            "name": "Software",
+            "data":[
+                "Unity", "Unreal Engine", "Godot", "Diamond Engine", "GitHub", "Maya"
+            ]
+        },
+        {
+            "name": "Tools",
+            "data":[
+                "Jira", "Firebase", "Visual Studio", "Visual Studio Code"
+            ]
+        },
+        {
+            "name": "API",
+            "data":[
+                "OpenGL", "SDL2", "Tkinter", "MonoRuntime"
+            ]
+        },
+        {
+            "name": "Others",
+            "data":[
+                "HTML5", "CSS"
+            ]
+        }
+    ],
+
     "skills": [
         {
             "name": "C++",
