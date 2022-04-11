@@ -1,4 +1,4 @@
-let hideProjectAtIndex = 9;
+let hideProjectAtIndex = 15;
 function toggleHideProjects() {
     var x = document.getElementById("allProjects");
     var indexIndicator = 0;
