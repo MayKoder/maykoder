@@ -32,7 +32,7 @@ li.list-group-item::before {
 
 @font-face {
     font-family: sectionText;
-    src: url(../fonts/montserrat/Montserrat-Black.otf);
+    src: url(../fonts/Calvier.ttf);
 }
     
 @font-face {
@@ -115,7 +115,7 @@ li.list-group-item::before {
         min-height: 100vh; 
         width: 100%; 
         background-color: rgba(199, 199, 199, 0.297); 
-        background-image: url(../assets/project-media/SPACE_PARTITIONING.gif); 
+        background-image: url(../assets/project-media/backgroundNew.webp); 
         background-size: cover;   
         background-position: center;
         /* filter: blur(10px); */

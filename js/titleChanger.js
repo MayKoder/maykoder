@@ -230,7 +230,7 @@ var phrasesToDisplay = [
     "A FLUTTER DEVELOPER",
     "AN IOS DEVELOPER",
     "AN ANDROID DEVELOPER",
-    "MONKE",
+    // "MONKE",
 
 ];
 
