@@ -55,7 +55,7 @@
             "background": "assets/project-media/jake-inferno.png",
             "renderText": true,
             "link": "https://github.com/MayKoder/Physics-2_Jake_Inferno_Pinball",
-            "desc": ""
+            "desc": "Replica of Jake's Inferno pinball game created with SDL2 and C++ during 1 month. This was a group project, and I was in charge of the code and physics.<br><br>Role: Code and Physics"
         },
         {
             "name": "Verlet Integrator",
