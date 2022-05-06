@@ -62,7 +62,7 @@
             "background": "assets/project-media/integrator.png",
             "renderText": true,
             "link": "https://github.com/MayKoder/Verlet_Integrator",
-            "desc": ""
+            "desc": "Physic integration with Verlet's formulas with ball collision/simulation, orbit simulations and solid line joining calculations.<br><br>Role: Visual display and Verlet's integration."
         },
         {
             "name": "Schrodinger Quest",
@@ -76,28 +76,28 @@
             "background": "assets/project-media/AIMBOT.png",
             "renderText": true,
             "link": "https://github.com/MayKoder/Aimbot",
-            "desc": "Aimbot using Monte-Carlo's strategy and Verlet integration. Using C++/SDL.<br><br>Role: "
+            "desc": "Aimbot using Monte-Carlo's strategy and Verlet integration. Using C++/SDL.<br><br>Role: Aimbot integration"
         },
         {
             "name": "AI Tank Game",
             "background": "assets/project-media/tanks.jpg",
             "renderText": true,
             "link": "https://github.com/MayKoder/CNN-ONNX_IA_Card_Game",
-            "desc": ""
+            "desc": "Unity game that uses AI systems to autoplay a simple 1vX game. This was a 2 developer project made in 1 month. The tanks use custom-made AI logic, behaviour blocks and trigonometry.<br><br>Role: AI developer"
         },
         {
             "name": "Arcball with Matlab",
             "background": "assets/project-media/MATLAB.png",
             "renderText": true,
             "link": "https://github.com/MayKoder/MATH_2_Matlab_Project",
-            "desc": ""
+            "desc": "Arc ball system to get a better understanding of quaternion rotations with 2D to 3D input systems.<br><br>Role: Quaternion rotation implementation."
         },
         {
             "name": "AoF Remake",
             "background": "assets/project-media/AOF.png",
             "renderText": true,
             "link": "https://github.com/MayKoder/Art_Of_Fighting_Remake",
-            "desc": ""
+            "desc": "Remake of the AoF game, engine made from scratch with rendering, input systems, combo logic, physics/collisions and multiple levels.<br><br>Role: Code lead and physics integration."
         },
         {
             "name": "Racing Game",
