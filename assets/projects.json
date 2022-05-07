@@ -104,14 +104,14 @@
             "background": "assets/project-media/racing-game.png",
             "renderText": true,
             "link": "https://github.com/MayKoder/Physics-2_Racing_Game",
-            "desc": "Core for a game using Bullet, OpenGL and SDL. Racing game that uses gravitational changes through the map.<br><br>Role: "
+            "desc": "Core for a game using Bullet, OpenGL and SDL. Racing game that uses gravitational changes through the map.<br><br>Role: Car, physics and game logic integration."
         },
         {
             "name": "AI Card Game",
             "background": "assets/project-media/cards.jpg",
             "renderText": true,
             "link": "https://github.com/MayKoder/CNN-ONNX_IA_Card_Game",
-            "desc": ""
+            "desc": "Card game autoplayed by a neural network IA that recognizes the images of the cards in its hand and makes the best choice of winning combination against a randomized selector.<br><br>Role: AI integration."
         },
         {
             "name": "Food Delivery App",
