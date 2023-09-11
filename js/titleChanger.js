@@ -225,11 +225,10 @@ function sleep(ms) {
 var phrasesToDisplay = [
     "LOADING...",
     "A SOFTWARE DEVELOPER",
+    "A C++ DEVELOPER",
     "A GAME DEVELOPER",
-    "READY TO LEARN",
-    "A FLUTTER DEVELOPER",
-    "AN IOS DEVELOPER",
-    "AN ANDROID DEVELOPER",
+    "AN UNITY DEVELOPER",
+    "AN UNREAL DEVELOPER",
     // "MONKE",
 
 ];
@@ -259,7 +258,7 @@ async function demo() {
             if(charIndicator <= 0){
                 typeInState = true;
 
-                (textIndicator >= phrasesToDisplay.length-1) ? textIndicator = 0 : textIndicator++;
+                (textIndicator >= phrasesToDisplay.length-1) ? textIndicator = 1 : textIndicator++;
 
                 await sleep(1000);
             }
