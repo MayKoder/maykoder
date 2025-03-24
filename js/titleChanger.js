@@ -226,6 +226,8 @@ var phrasesToDisplay = [
     "LOADING...",
     "A SOFTWARE DEVELOPER",
     "A C++ DEVELOPER",
+    "AN OPENGL DEVELOPER",
+    "A VULKAN DEVELOPER",
     "A GAME DEVELOPER",
     "AN UNITY DEVELOPER",
     "AN UNREAL DEVELOPER",
