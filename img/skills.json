@@ -1,0 +1,99 @@
+{
+
+    "tableSkills":[
+        {
+            "name": "Languages",
+            "data": [
+                "C", "C++", "C#", "Java", "JavaScript", "Arduino", "Python", "Dart", "SQL", "GLSL", "HLSL"
+            ]
+        },
+        {
+            "name": "Software",
+            "data":[
+                "Unity", "Unreal Engine", "Godot", "Diamond Engine", "GitHub", "Maya"
+            ]
+        },
+        {
+            "name": "Tools",
+            "data":[
+                "Jira", "Firebase", "Visual Studio", "Visual Studio Code", "Confluence", "React"
+            ]
+        },
+        {
+            "name": "API",
+            "data":[
+                "OpenGL", "Vulkan", "SDL2", "Tkinter", "MonoRuntime"
+            ]
+        },
+        {
+            "name": "Others",
+            "data":[
+                "HTML5", "CSS", "Bootstrap", "Linux"
+            ]
+        }
+    ],
+
+    "skills": [
+        {
+            "name": "C++",
+            "icon": "img/skills/cpp.svg",
+            "years": 7
+        },
+		{
+            "name": "OpenGL",
+            "icon": "img/skills/opengl.svg",
+            "years": 5
+        },
+        {
+            "name": "Vulkan",
+            "icon": "img/skills/vulkan.svg",
+            "years": 2
+        },
+        {
+            "name": "Unity",
+            "icon": "img/skills/unity.svg",
+            "years": 8
+        },
+		{
+            "name": "Flutter",
+            "icon": "img/skills/flutter.svg",
+            "years": 5
+        },
+        {
+            "name": "GitHub",
+            "icon": "img/skills/github-brands.svg",
+            "years": 7
+        },
+        {
+            "name": "Unreal Engine",
+            "icon": "img/skills/unreal.svg",
+            "years": 2
+        },
+        {
+            "name": "Java",
+            "icon": "img/skills/java-brands.svg",
+            "years": 2
+        },
+        {
+            "name": "Python",
+            "icon": "img/skills/python-brands.svg",
+            "years": 2
+        },
+        {
+            "name": "C#",
+            "icon": "img/skills/csharp.svg",
+            "years": 8
+        },
+        {
+            "name": "Firebase",
+            "icon": "img/skills/firebase.svg",
+            "years": 5
+        },
+        {
+            "name": "Visual Studio / VSCode",
+            "icon": "img/skills/visual.svg",
+            "years": 10
+        }
+        
+    ]
+}

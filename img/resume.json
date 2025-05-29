@@ -1,0 +1,79 @@
+{
+    "experience": [
+        {
+            "title": "Freelance Full-Stack Web-App Developer",
+            "company": "NUSKU CLOUD",
+            "period": "Jan 2025 - Present",
+            "description": ""
+        },
+        {
+            "title": "Lecturer at UPC School / CITM",
+            "company": "Polytechnic University of Catalonia",
+            "period": "Sep 2022 - Present",
+            "description": "Lecturer at CITM/UPC teaching multiple classes such as 'Advance Graphics Programming', 'Game Engines' and 'Project 1'. I am also a Bachelor's thesis tutor."
+        },
+        {
+            "title": "Junior to Senior C++ Engine Developer",
+            "company": "Zitro Laboratory",
+            "period": "Jun 2022 - Present",
+            "description": ""
+        },
+        {
+            "title": "Software Developer Intern",
+            "company": "The Brain Therapy",
+            "period": "Mar 2021 - Jul 2021",
+            "description": ""
+        },
+		{
+            "title": "Junior Software Developer",
+            "company": "The Brain Therapy",
+            "period": "Jul 2021 - Apr 2022",
+            "description": ""
+        },
+        {
+            "title": "Mobile Application Developer",
+            "company": "Valking",
+            "period": "Aug 2021 - Feb 2022",
+            "description": ""
+        }
+    ],
+    "education": [
+        {
+            "degree": "Exchange program at Glasgow",
+            "institution": "Glasgow Caledonian University",
+            "period": "Jan 2022 - May 2022",
+            "description": ""
+        },
+        {
+            "degree": "Bachelor's degrees in Video Game Design and Development",
+            "institution": "CITM Image Processing and Multimedia Technology Center",
+            "period": "Sep 2018- Jun 2022",
+            "description": ""
+        }
+    ],
+    "languages": [
+        {
+            "name": "English",
+            "proficiency": 100,
+            "level": "C1"
+        },
+        {
+            "name": "Spanish",
+            "proficiency": 100,
+            "level": "Native"
+        },
+        {
+            "name": "Catalan",
+            "proficiency": 100,
+            "level": "Native"
+        }
+    ],
+    "volunteering": [
+        {
+            "role": "Volunteer Assistant Canòdrom",
+            "organization": "Ateneu d'Innovació Digital i Democràtica",
+            "period": "Jun 2021",
+            "description": "My role was to make sure that everyone could follow along with the event and, in the case of someone not knowing how to use Minecraft, assist and teach them the basics fast and efficiently."
+        }
+    ]
+} 
