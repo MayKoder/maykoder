@@ -23,6 +23,13 @@
 
     "projects": [
         {
+            "name": "Vank Cliff",
+            "background": "img/project-media/vank-cliff-image.png",
+            "renderText": false,
+            "link": "https://github.com/xdaniortega/vank-cliff",
+            "desc": "Developed a Web3 banking application within 24 hours during ETHGlobal Prague 2025. The project was awarded for its integration with Blockscout and led to multiple meetings with potential investors."
+        },
+        {
             "name": "Mythology Parade",
             "background": "img/project-media/myh-parade3.png",
             "renderText": false,
